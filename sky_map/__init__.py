@@ -1,0 +1,1 @@
+"""ASTROGUIDE sky-map."""
