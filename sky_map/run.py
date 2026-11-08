@@ -1,16 +1,13 @@
 from app.app import create_app
 
-
-# Создаём приложение
+# Создание приложения
 app = create_app()
 
-# Сервер для развёртывания (деплоя)
+# Сервер для деплоя
 server = app.server
 
 
-# Запуск приложения
 if __name__ == "__main__":
-
     app.run(
         debug=True,
         host="127.0.0.1",
